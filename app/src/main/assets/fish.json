@@ -1,0 +1,470 @@
+[
+    {
+        "available_seasons": [
+            "fall",
+            "winter"
+        ],
+        "available_times": [
+            "6am-11am",
+            "6pm-2am"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "Prefers temperature \"edges\" where cool and warm water meet.",
+        "image": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Albacore.png",
+        "locations": [
+            "ocean"
+        ],
+        "name": "Albacore",
+        "price": {
+            "gold": 112,
+            "iridium": 150,
+            "normal": 75,
+            "silver": 93
+        },
+        "size": "20-41"
+    },
+    {
+        "available_seasons": [
+            "spring",
+            "fall"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "A small silver fish found in the ocean.",
+        "locations": [
+            "ocean"
+        ],
+        "name": "Anchovy",
+        "price": {
+            "gold": 45,
+            "iridium": 60,
+            "normal": 30,
+            "silver": 37
+        },
+        "size": "1-17"
+    },
+    {
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "A brightly colored tropical fish that is popular in aquariums.",
+        "locations": [
+            "ginger island pond",
+            "ginger island rivers"
+        ],
+        "name": "Blue Discus",
+        "price": {
+            "gold": 180,
+            "iridium": 240,
+            "normal": 120,
+            "silver": 150
+        },
+        "size": "2-10"
+    },
+    {
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_times": [
+            "6pm-2am"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "A fairly common river fish that becomes active at night.",
+        "locations": [
+            "town river",
+            "forest river"
+        ],
+        "name": "Bream",
+        "price": {
+            "gold": 67,
+            "iridium": 90,
+            "normal": 45,
+            "silver": 56
+        },
+        "size": "12-31",
+        "bundles": [
+            "night fishing"
+        ]
+    },
+    {
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "A relative of the catfish that eats a variety of foods off the lake bottom.",
+        "locations": [
+            "mountain lake"
+        ],
+        "name": "Bullhead",
+        "price": {
+            "gold": 112,
+            "iridium": 150,
+            "normal": 75,
+            "silver": 93
+        },
+        "size": "12-31",
+        "bundles": [
+            "lake fish"
+        ]
+    },
+    {
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "A common pond fish.",
+        "locations": [
+            "mountain lake",
+            "secret woods pond",
+            "the sewers"
+        ],
+        "name": "Carp",
+        "price": {
+            "gold": 45,
+            "iridium": 60,
+            "normal": 30,
+            "silver": 37
+        },
+        "size": "15-51",
+        "bundles": [
+            "lake fish"
+        ]
+    },
+    {
+        "available_seasons": [
+            "spring",
+            "summer (secret woods pond)",
+            "fall"
+        ],
+        "available_times": [
+            "6am-12am"
+        ],
+        "available_weather": [
+            "rain"
+        ],
+        "description": "An uncommon fish found in streams.",
+        "locations": [
+            "town river",
+            "forest river",
+            "secret woods pond",
+            "witch's swamp"
+        ],
+        "name": "Catfish",
+        "price": {
+            "gold": 300,
+            "iridium": 400,
+            "normal": 200,
+            "silver": 250
+        },
+        "size": "12-73",
+        "bundles": [
+            "river fish"
+        ]
+    },
+    {
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "A common freshwater fish known for its voracious appetite.",
+        "locations": [
+            "forest river",
+            "mountain lake"
+        ],
+        "name": "Chub",
+        "price": {
+            "gold": 75,
+            "iridium": 100,
+            "normal": 50,
+            "silver": 62
+        },
+        "size": "12-25",
+        "bundles": [
+            "field research"
+        ]
+    },
+    {
+        "available_seasons": [
+            "summer"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "description": "A fierce carnivore with brilliant orange scales.",
+        "locations": [
+            "forest river"
+        ],
+        "name": "Dorado",
+        "price": {
+            "gold": 150,
+            "iridium": 200,
+            "normal": 100,
+            "silver": 125
+        },
+        "size": "24-33"
+    },
+    {
+        "name": "Eel",
+        "description": "A long, slippery little fish.",
+        "price": {
+            "gold": 127,
+            "iridium": 170,
+            "normal": 85,
+            "silver": 106
+        },
+        "locations": [
+            "ocean"
+        ],
+        "available_times": [
+            "4pm-2am"
+        ],
+        "available_seasons": [
+            "spring",
+            "fall"
+        ],
+        "available_weather": [
+            "rain"
+        ],
+        "size": "12-81",
+        "bundles": [
+            "night fishing"
+        ]
+    },
+    {
+        "name": "Flounder",
+        "description": "It lives on the bottom, so both eyes are on top of its head.",
+        "price": {
+            "normal": 100,
+            "silver": 125,
+            "gold": 150,
+            "iridium": 200
+        },
+        "locations": [
+            "ocean",
+            "ginger island ocean"
+        ],
+        "available_times": [
+            "6a-8pm"
+        ],
+        "available_seasons": [
+            "spring",
+            "summer",
+            "all seasons (ginger island)"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "4-17"
+    },
+    {
+        "name": "Ghostfish",
+        "description": "A pale, blind fish found in underground lakes.",
+        "price": {
+            "normal": 45,
+            "silver": 56,
+            "gold": 67,
+            "iridium": 90
+        },
+        "locations": [
+            "mines (level 20)",
+            "mines (level 60)"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "10-36",
+        "bundles": [
+            "specialty fish"
+        ]
+    },
+    {
+        "name": "Halibut",
+        "description": "A flat fish that lives on the ocean floor.",
+        "price": {
+            "normal": 80,
+            "silver": 100,
+            "gold": 120,
+            "iridium": 160
+        },
+        "locations": [
+            "ocean"
+        ],
+        "available_times": [
+            "6am-11am",
+            "7pm-2am"
+        ],
+        "available_seasons": [
+            "spring",
+            "summer",
+            "winter"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "10-34"
+    },
+    {
+        "name": "Herring",
+        "description": "A common ocean fish.",
+        "price": {
+            "normal": 30,
+            "silver": 37,
+            "gold": 45,
+            "iridium": 60
+        },
+        "locations": [
+            "ocean"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_seasons": [
+            "spring",
+            "winter"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "8-21"
+    },
+    {
+        "name": "Ice Pip",
+        "description": "A rare fish that thrives in extremely cold conditions.",
+        "price": {
+            "normal": 500,
+            "silver": 625,
+            "gold": 750,
+            "iridium": 1000
+        },
+        "locations": [
+            "mines (level 60)"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "7-9"
+    },
+    {
+        "name": "Largemouth Bass",
+        "description": "A popular fish that lives in lakes.",
+        "price": {
+            "normal": 100,
+            "silver": 125,
+            "gold": 150,
+            "iridium": 200
+        },
+        "locations": [
+            "mountain lake"
+        ],
+        "available_times": [
+            "6am-7pm"
+        ],
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "11-31",
+        "bundles": [
+            "lake fish",
+            "quality fish"
+        ]
+    },
+    {
+        "name": "Lava Eel",
+        "description": "It can somehow survive in pools of red-hot lava.",
+        "price": {
+            "normal": 700,
+            "silver": 875,
+            "gold": 1050,
+            "iridium": 1400
+        },
+        "locations": [
+            "mines (level 100)",
+            "volcano caldera"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_seasons": [
+            "all seasons"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "31-33",
+        "bundles": [
+            "master fisher's"
+        ]
+    },
+    {
+        "name": "Lingcod",
+        "description": "A fearsome predator that will eat almost anything it can cram into its mouth.",
+        "price": {
+            "normal": 120,
+            "silver": 150,
+            "gold": 180,
+            "iridium": 240
+        },
+        "locations": [
+            "town river",
+            "forest river",
+            "mountain lake"
+        ],
+        "available_times": [
+            "anytime"
+        ],
+        "available_seasons": [
+            "winter"
+        ],
+        "available_weather": [
+            "any"
+        ],
+        "size": "30-51"
+    }
+]
