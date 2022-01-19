@@ -2,7 +2,7 @@
     {
         "available_seasons": [
             "fall",
-            "winter"
+            "winter",
         ],
         "available_times": [
             "6am-11am",
@@ -51,7 +51,7 @@
     },
     {
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_times": [
             "anytime"
@@ -75,7 +75,7 @@
     },
     {
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_times": [
             "6pm-2am"
@@ -102,7 +102,7 @@
     },
     {
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_times": [
             "anytime"
@@ -128,7 +128,7 @@
     },
     {
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_times": [
             "anytime"
@@ -157,7 +157,7 @@
     {
         "available_seasons": [
             "spring",
-            "summer (secret woods pond)",
+            "summer",
             "fall"
         ],
         "available_times": [
@@ -187,7 +187,7 @@
     },
     {
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_times": [
             "anytime"
@@ -281,7 +281,7 @@
         "available_seasons": [
             "spring",
             "summer",
-            "all seasons (ginger island)"
+            "all_seasons"
         ],
         "available_weather": [
             "any"
@@ -305,7 +305,7 @@
             "anytime"
         ],
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_weather": [
             "any"
@@ -381,7 +381,7 @@
             "anytime"
         ],
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_weather": [
             "any"
@@ -404,7 +404,7 @@
             "6am-7pm"
         ],
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_weather": [
             "any"
@@ -432,7 +432,7 @@
             "anytime"
         ],
         "available_seasons": [
-            "all seasons"
+            "all_seasons"
         ],
         "available_weather": [
             "any"

@@ -5,6 +5,7 @@ import com.example.stardewvalleyfishingcompanion.utils.getJsonDataFromAsset
 import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
 import com.google.gson.reflect.TypeToken
+import java.lang.reflect.Type
 
 data class Price(val normal: Int, val silver: Int, val gold:Int, val iridium: Int)
 
@@ -28,8 +29,8 @@ data class FishData(
 class StaticJsonFishRepository(
     private val context: Context
 ): FishRepository {
-    val gson = Gson()
-    val listFishType = object : TypeToken<List<FishData>>() {}.type
+    private val gson = Gson()
+    private val listFishType: Type = object : TypeToken<List<FishData>>() {}.type
 
     override fun getAllFishData(): List<FishData> {
         val jsonString = getJsonDataFromAsset(context, "fish.json")
