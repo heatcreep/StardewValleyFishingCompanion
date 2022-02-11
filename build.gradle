@@ -3,6 +3,10 @@ buildscript {
     ext {
         compose_version = '1.0.5'
         lifecycle_version = '2.0.2'
+        dagger_version = '2.40.1'
+        androidx_lifecycle_version = '2.4.0'
+        gson_version = '2.8.9'
+        accompanist_version = "0.21.3-beta"
         moshi_version = '1.12.0'
     }
     repositories {
@@ -11,7 +15,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.4'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31"
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

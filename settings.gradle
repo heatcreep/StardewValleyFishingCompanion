@@ -8,3 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "StardewValleyFishingCompanion"
 include ':app'
+include ':ui_main'
+include ':repo_fish'
+include ':core'
