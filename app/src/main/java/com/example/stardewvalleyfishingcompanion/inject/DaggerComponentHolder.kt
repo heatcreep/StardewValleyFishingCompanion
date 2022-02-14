@@ -5,12 +5,12 @@ import com.example.core.inject.CoreComponent
 import com.example.core.inject.DaggerCoreComponent
 import com.example.core.inject.RepositoryComponent
 import com.example.core.fish.FishRepository
+import com.example.fish.inject.DaggerFishComponent
 import com.example.fish.inject.FishComponent
 
 class DaggerComponentHolder(
     private val coreComponent: CoreComponent
-) : CoreComponent by coreComponent,
-    RepositoryComponent {
+) : CoreComponent by coreComponent, RepositoryComponent{
 
     constructor(context: Application): this(
         DaggerCoreComponent.builder().application(context).build()

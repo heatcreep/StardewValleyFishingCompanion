@@ -1,5 +1,6 @@
 package com.example.fish
 
+import android.app.Application
 import android.content.Context
 import com.example.core.fish.FishData
 import com.example.core.fish.FishRepository
@@ -11,7 +12,7 @@ import java.lang.reflect.Type
 import javax.inject.Inject
 
 class FishRepositoryImpl @Inject constructor(
-    private val context: Context
+    private val context: Application
 ): FishRepository {
     private val gson = Gson()
     private val listFishType: Type = object : TypeToken<List<FishData>>() {}.type

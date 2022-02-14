@@ -23,10 +23,13 @@ import androidx.lifecycle.ViewModelProvider
 import coil.compose.rememberImagePainter
 import com.example.core.fish.FishData
 import com.example.main.R
+import com.example.main.fish.inject.FishScreenComponent
 
 
 @Composable
-fun FishScreen(fishViewModel: FishViewModel) {
+fun FishScreen(componentBuilder: FishScreenComponent.Builder) {
+    val component = remember { componentBuilder.build() }
+    val fishViewModel = component.viewModel
     Scaffold(
         topBar = {
             TopAppBar(

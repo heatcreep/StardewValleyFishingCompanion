@@ -8,14 +8,9 @@ import com.example.core.inject.RepositoryComponent
 import com.example.stardewvalleyfishingcompanion.inject.AppComponent
 import com.example.stardewvalleyfishingcompanion.inject.DaggerComponentHolder
 
-class MyApp : Application(), DaggerContext, AppComponent.Holder {
+class MyApp : Application(),AppComponent.Holder {
 
     lateinit var daggerComponentHolder: DaggerComponentHolder
-
-    override val coreComponent: CoreComponent
-        get() = daggerComponentHolder
-    override val repositoryComponent: RepositoryComponent
-        get() = daggerComponentHolder
 
     override val appComponent: AppComponent
         get() = daggerComponentHolder.appComponent
