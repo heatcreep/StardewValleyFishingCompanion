@@ -15,5 +15,6 @@ android {
 dependencies {
     // Modules
     implementation project(path: ':ui_main')
+    implementation project(path: ':ui_fishdetails')
     implementation project(path: ':repo_fish')
 }

@@ -1,0 +1,9 @@
+plugins {
+    id 'com.android.library'
+}
+apply from: "$project.rootDir/scripts/android_module.gradle"
+apply from: "$project.rootDir/scripts/compose_module.gradle"
+
+dependencies {
+    implementation project(":core")
+}

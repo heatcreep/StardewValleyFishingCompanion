@@ -1,10 +1,7 @@
 package com.example.main.navigation
 
 import androidx.navigation.NavHostController
-
-interface NavDelegate {
-    fun goBack()
-}
+import com.example.core.navigation.NavDelegate
 
 class MainTabNavigator(
     private val navHostController: NavHostController,
@@ -13,5 +10,9 @@ class MainTabNavigator(
 
     override fun goBack() {
         navHostController.popBackStack()
+    }
+
+    override fun goToFishDetails(fishId: Int) {
+        navHostController.navigate("$route/fish-detail/${fishId}")
     }
 }

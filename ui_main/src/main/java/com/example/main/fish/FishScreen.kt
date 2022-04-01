@@ -1,5 +1,6 @@
 package com.example.main.fish
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -14,14 +15,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import coil.compose.rememberImagePainter
 import com.example.core.fish.FishData
+import com.example.core.navigation.NavDelegate
 import com.example.main.R
 import com.example.main.fish.inject.FishScreenComponent
 
@@ -29,41 +30,52 @@ import com.example.main.fish.inject.FishScreenComponent
 @Composable
 fun FishScreen(componentBuilder: FishScreenComponent.Builder) {
     val component = remember { componentBuilder.build() }
+    val navDelegate = component.navDelegate
     val fishViewModel = component.viewModel
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text("Fish") }
-            )
-        },
-        content = {
-            Surface(color = MaterialTheme.colors.background) {
-                FishCardList(fishViewModel = fishViewModel)
+    Box {
+        Image(
+            modifier = Modifier.fillMaxSize(),
+            painter = painterResource(id = R.drawable.junimo_md_tight_bg),
+            contentDescription = "junimo background",
+            contentScale = ContentScale.FillBounds
+        )
+        Scaffold(
+            backgroundColor = Color.Transparent,
+            content = {
+                Surface(color = Color.Transparent) {
+                    FishCardList(fishViewModel = fishViewModel, navDelegate = navDelegate)
+                }
             }
-        }
-    )
+        )
+    }
+
 
 }
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun FishCardList(fishViewModel: FishViewModel) {
+fun FishCardList(fishViewModel: FishViewModel, navDelegate: NavDelegate) {
     val allFish: List<FishData> by fishViewModel.allFish.observeAsState(emptyList())
     LazyVerticalGrid(
         cells = GridCells.Fixed(3),
-        contentPadding = PaddingValues(6.dp)
     ) {
         items(allFish) { singleFish ->
-            FishCard(fish = singleFish)
+            FishCard(fish = singleFish, navDelegate)
         }
     }
 }
 
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun FishCard(fish: FishData) {
+fun FishCard(fish: FishData, navDelegate: NavDelegate) {
     Card(
-        modifier = Modifier.padding(4.dp),
-        backgroundColor = Color.LightGray
+        modifier = Modifier.padding(5.dp).height(150.dp),
+        backgroundColor = Color.White,
+        border = BorderStroke(2.dp, Color.Black),
+        onClick = {
+            navDelegate.goToFishDetails(fish.id)
+        }
+
 
     ) {
         Column(
@@ -79,43 +91,23 @@ fun FishCard(fish: FishData) {
                 verticalArrangement = Arrangement.Top,
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier
-                    .padding(vertical = 5.dp, horizontal = 0.dp)
+                    .padding(vertical = 10.dp, horizontal = 0.dp)
                     .fillMaxWidth(),
             ) {
                 Text(
                     text = fish.name,
-                    fontSize = 15.sp,
-                    style = MaterialTheme.typography.button,
+                    fontSize = 12.sp,
+                    textAlign = TextAlign.Center,
+                    style = MaterialTheme.typography.h3,
                     color = MaterialTheme.colors.secondaryVariant
                 )
                 Image(
                     painter = painter,
                     contentDescription = "an image of ${fish.name}",
                     modifier = Modifier
-                        .padding(top = 15.dp)
-                        .size(50.dp)
+                        .padding(top = 16.dp)
+                        .size(48.dp)
                 )
-            }
-            Row(
-                modifier = Modifier.padding(top = 20.dp),
-                horizontalArrangement = Arrangement.Start
-            ) {
-                val context = LocalContext.current
-                fish.availableSeasons.forEach { season ->
-                    val drawableId = remember(season) {
-                        context.resources.getIdentifier(
-                            season,
-                            "drawable",
-                            context.packageName
-                        )
-                    }
-                    Image(
-                        painterResource(id = if (drawableId != 0) drawableId else R.drawable.all_seasons),
-                        contentDescription = season,
-                        modifier = Modifier.size(30.dp)
-                    )
-
-                }
             }
         }
     }

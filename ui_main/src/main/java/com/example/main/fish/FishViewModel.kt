@@ -10,6 +10,6 @@ import javax.inject.Inject
 class FishViewModel @Inject constructor(
     repository: FishRepository
 ) {
-    private var _allFish = MutableLiveData(repository.getAllFishData())
+    private var _allFish = MutableLiveData(repository.fishData)
     val allFish: LiveData<List<FishData>> = _allFish
 }

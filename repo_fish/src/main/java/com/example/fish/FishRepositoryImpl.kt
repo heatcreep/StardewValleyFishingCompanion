@@ -16,9 +16,14 @@ class FishRepositoryImpl @Inject constructor(
 ): FishRepository {
     private val gson = Gson()
     private val listFishType: Type = object : TypeToken<List<FishData>>() {}.type
+    override val fishData = getAllFishData()
 
-    override fun getAllFishData(): List<FishData> {
+    private fun getAllFishData(): List<FishData> {
         val jsonString = getJsonDataFromAsset(context, "fish.json")
         return gson.fromJson(jsonString, listFishType)
+    }
+
+    override fun getSingleFish(fishId: Int): FishData {
+        return fishData[fishId]
     }
 }

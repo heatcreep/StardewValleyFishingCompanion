@@ -5,22 +5,24 @@ import com.google.gson.annotations.SerializedName
 data class Price(val normal: Int, val silver: Int, val gold:Int, val iridium: Int)
 
 data class FishData(
-    val name: String,
-    val description: String,
+    var name: String = "",
+    var id: Int = 9999,
+    val description: String = "",
     @SerializedName("image_url")
-    val imageUrl: String,
-    val price: Price,
-    val locations: List<String>,
+    val imageUrl: String? = null,
+    val price: Price? = null,
+    val locations: List<String>? = null,
     @SerializedName("available_times")
-    val availableTimes: List<String>,
+    val availableTimes: List<String>? = null,
     @SerializedName("available_seasons")
-    val availableSeasons: List<String>,
+    val availableSeasons: List<String>? = null,
     @SerializedName("available_weather")
-    val availableWeather: List<String>,
-    val size: String,
-    val bundles: List<String>
+    val availableWeather: List<String>? = emptyList(),
+    val size: String = "",
+    val bundles: List<String>? = null
 )
 
 interface FishRepository {
-    fun getAllFishData(): List<FishData>
+    val fishData: List<FishData>
+    fun getSingleFish(fishId: Int): FishData
 }

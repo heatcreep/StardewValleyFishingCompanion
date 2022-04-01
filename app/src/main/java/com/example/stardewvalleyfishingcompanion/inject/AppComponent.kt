@@ -6,7 +6,6 @@ import com.example.stardewvalleyfishingcompanion.main.inject.MainScreenComponent
 import dagger.Component
 import javax.inject.Singleton
 
-@Singleton
 @Component(
     dependencies = [
         CoreComponent::class,

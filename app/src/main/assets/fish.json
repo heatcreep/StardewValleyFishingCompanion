@@ -17,6 +17,7 @@
             "ocean"
         ],
         "name": "Albacore",
+        "id": 0,
         "price": {
             "gold": 112,
             "iridium": 150,
@@ -37,10 +38,12 @@
             "any"
         ],
         "description": "A small silver fish found in the ocean.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Anchovy.png",
         "locations": [
             "ocean"
         ],
         "name": "Anchovy",
+        "id": 1,
         "price": {
             "gold": 45,
             "iridium": 60,
@@ -60,11 +63,13 @@
             "any"
         ],
         "description": "A brightly colored tropical fish that is popular in aquariums.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/e/ee/Blue_Discus.png",
         "locations": [
             "ginger island pond",
             "ginger island rivers"
         ],
         "name": "Blue Discus",
+        "id": 2,
         "price": {
             "gold": 180,
             "iridium": 240,
@@ -84,11 +89,13 @@
             "any"
         ],
         "description": "A fairly common river fish that becomes active at night.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/8/82/Bream.png",
         "locations": [
             "town river",
             "forest river"
         ],
         "name": "Bream",
+        "id": 3,
         "price": {
             "gold": 67,
             "iridium": 90,
@@ -111,10 +118,12 @@
             "any"
         ],
         "description": "A relative of the catfish that eats a variety of foods off the lake bottom.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/d/db/Bullhead.png",
         "locations": [
             "mountain lake"
         ],
         "name": "Bullhead",
+        "id": 4,
         "price": {
             "gold": 112,
             "iridium": 150,
@@ -137,12 +146,14 @@
             "any"
         ],
         "description": "A common pond fish.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png",
         "locations": [
             "mountain lake",
             "secret woods pond",
             "the sewers"
         ],
         "name": "Carp",
+        "id": 5,
         "price": {
             "gold": 45,
             "iridium": 60,
@@ -167,6 +178,7 @@
             "rain"
         ],
         "description": "An uncommon fish found in streams.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png",
         "locations": [
             "town river",
             "forest river",
@@ -174,6 +186,7 @@
             "witch's swamp"
         ],
         "name": "Catfish",
+        "id": 6,
         "price": {
             "gold": 300,
             "iridium": 400,
@@ -196,11 +209,13 @@
             "any"
         ],
         "description": "A common freshwater fish known for its voracious appetite.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Chub.png",
         "locations": [
             "forest river",
             "mountain lake"
         ],
         "name": "Chub",
+        "id": 7,
         "price": {
             "gold": 75,
             "iridium": 100,
@@ -223,10 +238,12 @@
             "any"
         ],
         "description": "A fierce carnivore with brilliant orange scales.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Dorado.png",
         "locations": [
             "forest river"
         ],
         "name": "Dorado",
+        "id": 8,
         "price": {
             "gold": 150,
             "iridium": 200,
@@ -237,7 +254,9 @@
     },
     {
         "name": "Eel",
+        "id": 9,
         "description": "A long, slippery little fish.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Eel.png",
         "price": {
             "gold": 127,
             "iridium": 170,
@@ -264,7 +283,9 @@
     },
     {
         "name": "Flounder",
+        "id": 10,
         "description": "It lives on the bottom, so both eyes are on top of its head.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Flounder.png",
         "price": {
             "normal": 100,
             "silver": 125,
@@ -290,7 +311,9 @@
     },
     {
         "name": "Ghostfish",
+        "id": 11,
         "description": "A pale, blind fish found in underground lakes.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/7/72/Ghostfish.png",
         "price": {
             "normal": 45,
             "silver": 56,
@@ -317,7 +340,9 @@
     },
     {
         "name": "Halibut",
+        "id": 12,
         "description": "A flat fish that lives on the ocean floor.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Halibut.png",
         "price": {
             "normal": 80,
             "silver": 100,
@@ -343,7 +368,9 @@
     },
     {
         "name": "Herring",
+        "id": 13,
         "description": "A common ocean fish.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Herring.png",
         "price": {
             "normal": 30,
             "silver": 37,
@@ -367,7 +394,9 @@
     },
     {
         "name": "Ice Pip",
+        "id": 14,
         "description": "A rare fish that thrives in extremely cold conditions.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Ice_Pip.png",
         "price": {
             "normal": 500,
             "silver": 625,
@@ -390,7 +419,9 @@
     },
     {
         "name": "Largemouth Bass",
+        "id": 15,
         "description": "A popular fish that lives in lakes.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/1/11/Largemouth_Bass.png",
         "price": {
             "normal": 100,
             "silver": 125,
@@ -417,7 +448,9 @@
     },
     {
         "name": "Lava Eel",
+        "id": 16,
         "description": "It can somehow survive in pools of red-hot lava.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/1/12/Lava_Eel.png",
         "price": {
             "normal": 700,
             "silver": 875,
@@ -444,7 +477,9 @@
     },
     {
         "name": "Lingcod",
+        "id": 17,
         "description": "A fearsome predator that will eat almost anything it can cram into its mouth.",
+        "image_url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Lingcod.png",
         "price": {
             "normal": 120,
             "silver": 150,
