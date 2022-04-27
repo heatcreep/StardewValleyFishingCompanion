@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">ui_fish</string>
     <string name="fish_screen">Fish</string>
+    <string name="calculator">Calculator</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>

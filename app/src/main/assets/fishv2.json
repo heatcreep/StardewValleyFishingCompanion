@@ -1,0 +1,1867 @@
+[
+  {
+    "id": 0,
+    "image": "albacore",
+    "name": "Albacore",
+    "description": "Prefers temperature \"edges\" where cool and warm water meet.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "fall",
+      "winter"
+    ],
+    "available_all_day": false,
+    "available_times": [
+      {
+        "start": 6,
+        "end": 11
+      },
+      {
+        "start": 18,
+        "end": 26
+      }
+    ],
+    "available_all_weather": true,
+    "size": "20 to 41"
+  },
+  {
+    "id": 1,
+    "image": "anchovy",
+    "name": "Anchovy",
+    "description": "A small silver fish found in the ocean.",
+    "price": {
+      "regular": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "fall"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "1 to 17"
+  },
+  {
+    "id": 2,
+    "image": "blue_discus",
+    "name": "Blue Discus",
+    "description": "A brightly colored tropical fish that is popular in aquariums.",
+    "price": {
+      "regular": 120,
+      "silver": 150,
+      "gold": 180,
+      "iridium": 240
+    },
+    "locations": [
+      "ginger island pond",
+      "ginger island rivers"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "2 to 10"
+  },
+  {
+    "id": 3,
+    "image": "bream",
+    "name": "Bream",
+    "description": "A fairly common river fish that becomes active at night.",
+    "price": {
+      "regular": 45,
+      "silver": 56,
+      "gold": 67,
+      "iridium": 90
+    },
+    "locations": [
+      "forest river",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": false,
+    "available_times": [
+      {
+        "start": 18,
+        "end": 26
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 31",
+    "bundles": [
+      "night fishing"
+    ]
+  },
+  {
+    "id": 4,
+    "image": "bullhead",
+    "name": "Bullhead",
+    "description": "A relative of the catfish that eats a variety of foods off the lake bottom.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "mountain lake"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "12 to 31",
+    "bundles": [
+      "lake fish"
+    ]
+  },
+  {
+    "id": 5,
+    "image": "carp",
+    "name": "Carp",
+    "description": "A common pond fish.",
+    "price": {
+      "regular": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "locations": [
+      "mountain lake",
+      "secret woods pond",
+      "the sewers"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "15 to 51",
+    "bundles": [
+      "lake fish"
+    ]
+  },
+  {
+    "id": 6,
+    "image": "catfish",
+    "name": "Catfish",
+    "description": "An uncommon fish found in streams.",
+    "price": {
+      "regular": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "locations": [
+      "forest river",
+      "secret woods pond",
+      "town river",
+      "witch's swamp"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "available_all_day": false,
+    "available_times": [
+      {
+        "start": 6,
+        "end": 24
+      }
+    ],
+    "available_all_weather": false,
+    "available_weather": [
+      "rain"
+    ],
+    "size": "12 to 73",
+    "bundles": [
+      "river fish"
+    ]
+  },
+  {
+    "id": 7,
+    "image": "chub",
+    "name": "Chub",
+    "description": "A common freshwater fish known for its voracious appetite.",
+    "price": {
+      "regular": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "locations": [
+      "forest river",
+      "mountain lake"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "12 to 25",
+    "bundles": [
+      "field research"
+    ]
+  },
+  {
+    "id": 8,
+    "image": "dorado",
+    "name": "Dorado",
+    "description": "A fierce carnivore with brilliant orange scales.",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "forest river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "24 to 33"
+  },
+  {
+    "id": 9,
+    "image": "eel",
+    "name": "Eel",
+    "description": "A long, slippery little fish.",
+    "price": {
+      "regular": 85,
+      "silver": 106,
+      "gold": 127,
+      "iridium": 170
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "fall"
+    ],
+    "available_all_day": false,
+    "available_times": [
+      {
+        "start": 16,
+        "end": 26
+      }
+    ],
+    "available_all_weather": false,
+    "available_weather": [
+      "rain"
+    ],
+    "size": "12 to 81",
+    "bundles": [
+      "night fishing"
+    ]
+  },
+  {
+    "id": 10,
+    "image": "flounder",
+    "name": "Flounder",
+    "description": "It lives on the bottom, so both eyes are on top of its head.",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "ginger island ocean",
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": true,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer"
+    ],
+    "available_all_day": false,
+    "available_times": [
+      {
+        "start": 6,
+        "end": 20
+      }
+    ],
+    "available_all_weather": true,
+    "size": "4 to 17"
+  },
+  {
+    "id": 11,
+    "image": "ghostfish",
+    "name": "Ghostfish",
+    "description": "A pale, blind fish found in underground lakes.",
+    "price": {
+      "regular": 45,
+      "silver": 56,
+      "gold": 67,
+      "iridium": 90
+    },
+    "locations": [
+      "mines (level 20)",
+      "mines (level 60)"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "10 to 36",
+    "bundles": [
+      "specialty fish"
+    ]
+  },
+  {
+    "id": 12,
+    "image": "halibut",
+    "name": "Halibut",
+    "description": "A flat fish that lives on the ocean floor.",
+    "price": {
+      "regular": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "winter"
+    ],
+    "available_all_day": false,
+    "available_times": [
+      {
+        "start": 6,
+        "end": 11
+      },
+      {
+        "start": 19,
+        "end": 26
+      }
+    ],
+    "available_all_weather": true,
+    "size": "10 to 34"
+  },
+  {
+    "id": 13,
+    "image": "herring",
+    "name": "Herring",
+    "description": "A common ocean fish.",
+    "price": {
+      "regular": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "8 to 21"
+  },
+  {
+    "id": 14,
+    "image": "ice_pip",
+    "name": "Ice Pip",
+    "description": "A rare fish that thrives in extremely cold conditions.",
+    "price": {
+      "regular": 500,
+      "silver": 625,
+      "gold": 750,
+      "iridium": 1000
+    },
+    "locations": [
+      "mines (level 60)"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "7 to 9"
+  },
+  {
+    "id": 15,
+    "image": "largemouth_bass",
+    "name": "Largemouth Bass",
+    "description": "A popular fish that lives in lakes.",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "mountain lake"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": false,
+    "available_times": [
+      {
+        "start": 6,
+        "end": 19
+      }
+    ],
+    "available_all_weather": true,
+    "size": "11 to 31",
+    "bundles": [
+      "lake fish",
+      "quality fish"
+    ]
+  },
+  {
+    "id": 16,
+    "image": "lava_eel",
+    "name": "Lava Eel",
+    "description": "It can somehow survive in pools of red-hot lava.",
+    "price": {
+      "regular": 700,
+      "silver": 875,
+      "gold": 1050,
+      "iridium": 1400
+    },
+    "locations": [
+      "mines (level 100)",
+      "volcano caldera"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "31 to 33",
+    "bundles": [
+      "master fisher's"
+    ]
+  },
+  {
+    "id": 17,
+    "image": "lingcod",
+    "name": "Lingcod",
+    "description": "A fearsome predator that will eat almost anything it can cram into its mouth.",
+    "price": {
+      "regular": 120,
+      "silver": 150,
+      "gold": 180,
+      "iridium": 240
+    },
+    "locations": [
+      "forest river",
+      "mountain lake",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "winter"
+    ],
+    "available_all_day": true,
+    "available_all_weather": true,
+    "size": "30 to 51"
+  },
+  {
+    "id": 18,
+    "image": "lionfish",
+    "name": "Lionfish",
+    "description": "An aggressive, predatory fish with venomous spines.",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "ginger island ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "3 to 13"
+  },
+  {
+    "id": 19,
+    "image": "midnight_carp",
+    "name": "Midnight Carp",
+    "description": "This shy fish only feels comfortable at night.",
+    "price": {
+      "regular": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "locations": [
+      "cindersnap forest pond",
+      "ginger island pond",
+      "ginger island river",
+      "mountain lake"
+    ],
+    "legendary": false,
+    "ginger_island": true,
+    "winter_market": false,
+    "available_seasons": [
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "22",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 53"
+  },
+  {
+    "id": 20,
+    "image": "octopus",
+    "name": "Octopus",
+    "description": "A mysterious and intelligent creature.",
+    "price": {
+      "regular": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "13"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 49",
+    "bundles": [
+      "master fisher's"
+    ]
+  },
+  {
+    "id": 21,
+    "image": "perch",
+    "name": "Perch",
+    "description": "A freshwater fish of the winter",
+    "price": {
+      "regular": 55,
+      "silver": 68,
+      "gold": 82,
+      "iridium": 110
+    },
+    "locations": [
+      "forest river",
+      "mountain lake",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "10 to 25"
+  },
+  {
+    "id": 22,
+    "image": "pike",
+    "name": "Pike",
+    "description": "A freshwater fish that's difficult to catch.",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "forest pond",
+      "forest river",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "15 to 61"
+  },
+  {
+    "id": 23,
+    "image": "pufferfish",
+    "name": "Pufferfish",
+    "description": "Inflates when threatened.",
+    "price": {
+      "regular": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "locations": [
+      "ginger island ocean",
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": true,
+    "winter_market": false,
+    "available_seasons": [
+      "summer"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "12",
+        "end": "16"
+      }
+    ],
+    "available_all_weather": "false",
+    "available_weather": [
+      "sun"
+    ],
+    "size": "1 to 37",
+    "bundles": [
+      "specialty fish"
+    ]
+  },
+  {
+    "id": 24,
+    "image": "rainbow_trout",
+    "name": "Rainbow Trout",
+    "description": "A freshwater trout with colorful markings.",
+    "price": {
+      "regular": 65,
+      "silver": 81,
+      "gold": 97,
+      "iridium": 130
+    },
+    "locations": [
+      "forest river",
+      "mountain lake",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": "false",
+    "available_weather": [
+      "sun"
+    ],
+    "size": "10 to 26"
+  },
+  {
+    "id": 25,
+    "image": "red_mullet",
+    "name": "Red Mullet",
+    "description": "Long ago these were kept as pets.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "8 to 23"
+  },
+  {
+    "id": 26,
+    "image": "red_snapper",
+    "name": "Red Snapper",
+    "description": "A popular fish with a nice red color.",
+    "price": {
+      "regular": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": "false",
+    "available_weather": [
+      "rain"
+    ],
+    "size": "8 to 26",
+    "bundles": [
+      "ocean fish"
+    ]
+  },
+  {
+    "id": 27,
+    "image": "salmon",
+    "name": "Salmon",
+    "description": "Swims upstream to lay its eggs.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "forest river",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "fall"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "24 to 66"
+  },
+  {
+    "id": 28,
+    "image": "sandfish",
+    "name": "Sandfish",
+    "description": "It tries to hide using camouflage.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "the desert"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "20"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "8 to 25",
+    "bundles": [
+      "specialty fish"
+    ]
+  },
+  {
+    "id": 29,
+    "image": "sardine",
+    "name": "Sardine",
+    "description": "A common ocean fish.",
+    "price": {
+      "regular": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "1 to 13",
+    "bundles": [
+      "ocean fish"
+    ]
+  },
+  {
+    "id": 30,
+    "image": "scorpion_carp",
+    "name": "Scorpion Carp",
+    "description": "It's like a regular carp but with a sharp stinger.",
+    "price": {
+      "regular": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "locations": [
+      "the desert"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "20"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 33",
+    "bundles": [
+      "master fisher's"
+    ]
+  },
+  {
+    "id": 31,
+    "image": "sea_cucumber",
+    "name": "Sea Cucumber",
+    "description": "A slippery, slimy creature found on the ocean floor.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "3 to 21"
+  },
+  {
+    "id": 32,
+    "image": "shad",
+    "name": "Shad",
+    "description": "Lives in a school at sea, but returns to the rivers to spawn.",
+    "price": {
+      "regular": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "locations": [
+      "forest river",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "9",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": "false",
+    "available_weather": [
+      "rain"
+    ],
+    "size": "20 to 49",
+    "bundles": [
+      "quality fish",
+      "river fish"
+    ]
+  },
+  {
+    "id": 33,
+    "image": "slimejack",
+    "name": "Slimejack",
+    "description": "He's coated in a very thick layer of slime. He keeps slipping out of your hands!",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "mutant bug lair"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "8 to 26"
+  },
+  {
+    "id": 34,
+    "image": "smallmouth_bass",
+    "name": "Smallmouth Bass",
+    "description": "A freshwater fish that is very sensitive to pollution.",
+    "price": {
+      "regular": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "locations": [
+      "forest pond",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "fall"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "12 to 25"
+  },
+  {
+    "id": 35,
+    "image": "squid",
+    "name": "Squid",
+    "description": "A deep sea creature that can grow to enormous size.",
+    "price": {
+      "regular": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "locations": [
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "18",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 49"
+  },
+  {
+    "id": 36,
+    "image": "stingray",
+    "name": "Stingray",
+    "description": "Despite having a toxic stinger, these fish are shy and prefer to avoid humans.",
+    "price": {
+      "regular": 180,
+      "silver": 225,
+      "gold": 270,
+      "iridium": 360
+    },
+    "locations": [
+      "pirate cove"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "18 to 61"
+  },
+  {
+    "id": 37,
+    "image": "stonefish",
+    "name": "Stonefish",
+    "description": "A bizarre fish that's shaped like a brick.",
+    "price": {
+      "regular": 300,
+      "silver": 375,
+      "gold": 450,
+      "iridium": 600
+    },
+    "locations": [
+      "mines (level 20)"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "14 to 16"
+  },
+  {
+    "id": 38,
+    "image": "sturgeon",
+    "name": "Sturgeon",
+    "description": "An ancient bottom-feeder with a dwindling population. Females can live up to 150 years.",
+    "price": {
+      "regular": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "locations": [
+      "mountain lake"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 61",
+    "bundles": [
+      "lake fish"
+    ]
+  },
+  {
+    "id": 39,
+    "image": "sunfish",
+    "name": "Sunfish",
+    "description": "A common river fish.",
+    "price": {
+      "regular": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "locations": [
+      "forest river",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": "false",
+    "available_weather": [
+      "sun",
+      "wind"
+    ],
+    "size": "5 to 16",
+    "bundles": [
+      "river fish"
+    ]
+  },
+  {
+    "id": 40,
+    "image": "super_cucumber",
+    "name": "Super Cucumber",
+    "description": "A rare, purple variety of sea cucumber.",
+    "price": {
+      "regular": 250,
+      "silver": 312,
+      "gold": 375,
+      "iridium": 500
+    },
+    "locations": [
+      "ginger island ocean",
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": true,
+    "winter_market": false,
+    "available_seasons": [
+      "summer",
+      "fall"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "18",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 37"
+  },
+  {
+    "id": 41,
+    "image": "tiger_trout",
+    "name": "Tiger Trout",
+    "description": "A rare hybrid trout that cannot bear offspring of its own.",
+    "price": {
+      "regular": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "locations": [
+      "forest river",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "10 to 21",
+    "bundles": [
+      "river fish"
+    ]
+  },
+  {
+    "id": 42,
+    "image": "tilapia",
+    "name": "Tilapia",
+    "description": "A primarily vegetarian fish that prefers warm water.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "ginger island river",
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": true,
+    "winter_market": false,
+    "available_seasons": [
+      "summer",
+      "fall"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "11 to 31",
+    "bundles": [
+      "ocean fish"
+    ]
+  },
+  {
+    "id": 43,
+    "image": "tuna",
+    "name": "Tuna",
+    "description": "A large fish that lives in the ocean.",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "ginger island ocean",
+      "ocean"
+    ],
+    "legendary": false,
+    "ginger_island": true,
+    "winter_market": false,
+    "available_seasons": [
+      "summer",
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "6",
+        "end": "19"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "12 to 61",
+    "bundles": [
+      "ocean fish",
+      "quality fish"
+    ]
+  },
+  {
+    "id": 44,
+    "image": "void_salmon",
+    "name": "Void Salmon",
+    "description": "A salmon, twisted by void energy. The fresh meat is jet black, but rapidly turns pink when exposed to air.",
+    "price": {
+      "regular": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "locations": [
+      "witch's swamp"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "24 to 66",
+    "bundles": [
+      "the missing"
+    ]
+  },
+  {
+    "id": 45,
+    "image": "walleye",
+    "name": "Walleye",
+    "description": "A freshwater fish caught at night.",
+    "price": {
+      "regular": 105,
+      "silver": 131,
+      "gold": 157,
+      "iridium": 210
+    },
+    "locations": [
+      "forest pond",
+      "forest river",
+      "mountain lake",
+      "town river"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "fall"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "12",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": "false",
+    "available_weather": [
+      "rain"
+    ],
+    "size": "10 to 41",
+    "bundles": [
+      "night fishing",
+      "quality fish"
+    ]
+  },
+  {
+    "id": 46,
+    "image": "woodskip",
+    "name": "Woodskip",
+    "description": "A very sensitive fish that can only live in pools deep in the forest.",
+    "price": {
+      "regular": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "locations": [
+      "forest farm",
+      "secret woods pond"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "11 to 31",
+    "bundles": [
+      "specialty fish"
+    ]
+  },
+  {
+    "id": 47,
+    "image": "midnight_squid",
+    "name": "Midnight Squid",
+    "description": "A strange and mysterious denizen of the ocean's twilight depths.",
+    "price": {
+      "regular": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "locations": [
+      "night market"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": true,
+    "available_seasons": [
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "17",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "8 to 26"
+  },
+  {
+    "id": 48,
+    "image": "spook_fish",
+    "name": "Spook Fish",
+    "description": "The huge eyes can detect the faint silhouettes of prey.",
+    "price": {
+      "regular": 220,
+      "silver": 275,
+      "gold": 330,
+      "iridium": 440
+    },
+    "locations": [
+      "night market"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": true,
+    "available_seasons": [
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "17",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "8 to 26"
+  },
+  {
+    "id": 49,
+    "image": "blobfish",
+    "name": "Blobfish",
+    "description": "This odd creature floats above the ocean floor, consuming any edible material in its path.",
+    "price": {
+      "regular": 500,
+      "silver": 625,
+      "gold": 750,
+      "iridium": 1000
+    },
+    "locations": [
+      "night market"
+    ],
+    "legendary": false,
+    "ginger_island": false,
+    "winter_market": true,
+    "available_seasons": [
+      "winter"
+    ],
+    "available_all_day": "FALSE",
+    "available_times": [
+      {
+        "start": "17",
+        "end": "26"
+      }
+    ],
+    "available_all_weather": true,
+    "size": "8 to 26",
+    "bundles": [
+      "master fisher's"
+    ]
+  },
+  {
+    "id": 50,
+    "image": "crimsonfish",
+    "name": "Crimsonfish",
+    "description": "Lives deep in the ocean but likes to lay its eggs in the warm summer water.",
+    "price": {
+      "regular": 1500,
+      "silver": 1875,
+      "gold": 2250,
+      "iridium": 3000
+    },
+    "locations": [
+      "East Pier on The Beach. Requires level 5 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "summer"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "19 to 21"
+  },
+  {
+    "id": 51,
+    "image": "angler",
+    "name": "Angler",
+    "description": "Uses a bioluminescent dangler to attract prey.",
+    "price": {
+      "regular": 900,
+      "silver": 1125,
+      "gold": 1350,
+      "iridium": 1800
+    },
+    "locations": [
+      "North of JojaMart on the wooden plank bridge. Requires level 3 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "fall"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "17 to 19"
+  },
+  {
+    "id": 52,
+    "image": "legend",
+    "name": "Legend",
+    "description": "The king of all fish! They said he'd never be caught.",
+    "price": {
+      "regular": 5000,
+      "silver": 6250,
+      "gold": 7500,
+      "iridium": 10000
+    },
+    "locations": [
+      "The Mountain Lake near the log. Requires level 10 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": "false",
+    "available_weather": [
+      "rain"
+    ],
+    "size": "49 to 51"
+  },
+  {
+    "id": 53,
+    "image": "glacierfish",
+    "name": "Glacierfish",
+    "description": "Builds a nest on the underside of glaciers.",
+    "price": {
+      "regular": 1000,
+      "silver": 1250,
+      "gold": 1500,
+      "iridium": 2000
+    },
+    "locations": [
+      "South end of Arrowhead Island in Cindersap Forest. Requires level 6 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "26 to 28"
+  },
+  {
+    "id": 54,
+    "image": "mutant_carp",
+    "name": "Mutant Carp",
+    "description": "The strange waters of the sewer turned this carp into a monstrosity.",
+    "price": {
+      "regular": 1000,
+      "silver": 1250,
+      "gold": 1500,
+      "iridium": 2000
+    },
+    "locations": [
+      "The Sewers"
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "35 to 37"
+  },
+  {
+    "id": 55,
+    "image": "son_of_crimsonfish",
+    "name": "Son of Crimsonfish",
+    "description": "He hatched in the warm summer water, and followed in the footsteps of his father.",
+    "price": {
+      "regular": 1500,
+      "silver": 1875,
+      "gold": 2250,
+      "iridium": 3000
+    },
+    "locations": [
+      "East Pier on The Beach. Requires level 5 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "19 to 21"
+  },
+  {
+    "id": 56,
+    "image": "ms_angler",
+    "name": "Ms. Angler",
+    "description": "Uses a bioluminescent dangler to attract prey.",
+    "price": {
+      "regular": 900,
+      "silver": 1125,
+      "gold": 1350,
+      "iridium": 1800
+    },
+    "locations": [
+      "North of JojaMart on the wooden plank bridge. Requires level 3 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "17 to 19"
+  },
+  {
+    "id": 57,
+    "image": "legend_2",
+    "name": "Legend II",
+    "description": "The successor to the original Legend.",
+    "price": {
+      "regular": 5000,
+      "silver": 6250,
+      "gold": 7500,
+      "iridium": 10000
+    },
+    "locations": [
+      "The Mountain Lake near the log. Requires level 10 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "49 to 51"
+  },
+  {
+    "id": 58,
+    "image": "glacierfish_jr",
+    "name": "Glacierfish Jr.",
+    "description": "The original Glacierfish had a son...",
+    "price": {
+      "regular": 1000,
+      "silver": 1250,
+      "gold": 1500,
+      "iridium": 2000
+    },
+    "locations": [
+      "South end of Arrowhead Island in Cindersap Forest. Requires level 6 fishing."
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "26 to 28"
+  },
+  {
+    "id": 59,
+    "image": "radioactive_carp",
+    "name": "Radioactive Carp",
+    "description": "A carp that spent one too many years in toxic sludge.",
+    "price": {
+      "regular": 1000,
+      "silver": 1250,
+      "gold": 1500,
+      "iridium": 2000
+    },
+    "locations": [
+      "The Sewers"
+    ],
+    "legendary": true,
+    "ginger_island": false,
+    "winter_market": false,
+    "available_seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "available_all_day": "true",
+    "available_all_weather": true,
+    "size": "35 to 37"
+  }
+]

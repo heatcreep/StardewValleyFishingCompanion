@@ -1,6 +1,8 @@
 package com.example.stardewvalleyfishingcompanion.main.inject
 
 import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.material.ExperimentalMaterialApi
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import com.example.main.MainScreen
@@ -18,6 +20,9 @@ abstract class MainNavGraphModule {
 
     @ExperimentalAnimationApi
     companion object {
+
+        @ExperimentalFoundationApi
+        @ExperimentalMaterialApi
         @Provides
         @Reusable
         fun provideMainNavGraph(

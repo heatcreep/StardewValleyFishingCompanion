@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -19,10 +20,12 @@ import com.google.accompanist.navigation.animation.AnimatedNavHost
 
 sealed class MainScreen(val route: String, @StringRes val name: Int) {
     object Fish : MainScreen("fish", R.string.fish_screen)
+    object Calculator: MainScreen("calculator", R.string.calculator)
 }
 
-val screens = listOf<MainScreen>(
-    MainScreen.Fish
+val screens = listOf(
+    MainScreen.Fish,
+    MainScreen.Calculator
 )
 
 
